@@ -1,0 +1,30 @@
+.exchange {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.exchagnetablehead {
+	text-align: left;
+	font-size: 25px;
+}
+
+.exchagnetablehead tr td {
+	padding-left: 10px;
+	border-bottom: 1px solid black;
+}
+
+
+.exchagnetable {
+	width: 100%;
+	margin-top: 5px;
+	border-bottom: 1px solid black;
+}
+
+.exchagnetablebody tr td {
+	text-align: left;
+	padding: 10px;
+}
+
+.exchagnetablebody tr:nth-child(even) {
+	background-color: #F2F2F2;
+}

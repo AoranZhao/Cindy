@@ -1,0 +1,8 @@
+.sidebar {
+	position: fixed;
+	background-color: #FFFFFF;
+	display: inline-block;
+	float: left;
+	margin-top: 100px;
+}
+

@@ -1,0 +1,141 @@
+.introduction {
+	width: 100%;
+	padding-top: 10px;
+	overflow: auto;
+	border-top: 2px solid #F2F2F2;
+	background-color: white;
+}
+
+.intro-side {
+	width: 30%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.intro-side-img {
+	display: flex;
+}
+
+.intro-side-img img {
+	max-width: 90%;
+	max-height: 90%;
+	margin: auto;
+}
+
+.intro-side-info {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.intro-side-info div {
+	margin: auto;
+	width: 90%;
+}
+
+.intro-side-info-title {
+	height: 50px;
+	width: 100%;
+	background-color: #CC3333;
+	color: white;
+	display: flex;
+}
+
+.intro-side-info-title p {
+	margin: auto;
+}
+
+.intro-side-info-content {
+	background-color: #F2F2F2;
+}
+
+.intro-side-info-content div {
+	height: 30px;
+	display: flex;
+}
+
+.intro-side-info-content p {
+	margin: auto auto auto 0;
+}
+
+.intro-side-about {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.intro-side-about div {
+	width: 90%;
+	margin: auto;
+}
+
+.intro-side-about-title {
+	height: 50px;
+	width: 100%;
+	background-color: #CC3333;
+	color: white;
+	display: flex;
+}
+
+.intro-side-about-title p {
+	margin: auto;
+}
+
+.intro-side-about-content {
+	background: #F2F2F2;
+}
+
+.intro-side-about-content p {
+	padding: 10px;
+}
+
+.intro-main {
+	width: 70%;
+	float: left;
+}
+
+.intro-main-experiences, .intro-main-educations {
+	width: 100%;
+}
+
+.intro-main-experiences-title, .intro-main-educations-title {
+	height: 50px;
+	width: 98%;
+	background-color: #CC3333;
+	color: white;
+	display: flex;
+}
+
+.intro-main-experiences-title p, .intro-main-educations-title p {
+	margin: auto;
+}
+
+.intro-main-experiences-content, .intro-main-educations-content {
+	width: 98%;
+	background-color: #F2F2F2;
+	margin-bottom: 10px;
+}
+
+.experience-item, .education-item {
+	width: 100%;
+	padding: 10px 0;
+	border-top: 1px solid #CC3333;
+}
+
+.experience-item-title, .education-item-major {
+	padding: 5px;
+	font-size: 20px;
+}
+
+.experience-item-period, .education-item-period {
+	padding: 5px;
+	font-size: 15px;
+	float: right;
+}
+
+.experience-item-company, .education-item-school {
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+.experience-item-desc, .education-item-desc {
+	padding: 5px;
+}

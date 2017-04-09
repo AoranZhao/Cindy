@@ -1,0 +1,36 @@
+.topbar {
+	height: 50px;
+	width: 100%;
+	color: white;
+	background-color: #CC3333;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+.greeting {
+	padding: 10px 0 0 10px;
+	font-size: 30px;
+	float: left;
+}
+
+.search {
+	float: right;
+}
+
+input[type=text] {
+	height: 40px;
+	margin-top: 2px;
+	font-size: 20px;
+	width: 100px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+	width: 400px;
+}
+
+input[type=submit] {
+	margin-left: -55px;
+	height: 40px;
+}

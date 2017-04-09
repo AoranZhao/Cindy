@@ -1,0 +1,24 @@
+.forecast {
+	width: 62%;
+	float: right;
+}
+
+.mytable {
+	/*max-height: 720px;*/
+	width: 100%;
+	overflow: auto;
+}
+
+.forecastable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.forecasttable thead {
+	height: 30px;
+	background-color: #F2F2F2;
+}
+
+.forecasttable tbody tr td {
+	border-top: 1px solid #F2F2F2;
+}

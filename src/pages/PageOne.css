@@ -1,0 +1,17 @@
+.pageone {
+	position: relative;
+	width: 100%;
+}
+
+.sidebar_item {
+	background-color: #CC3333;
+	display: flex;
+	height: 50px;
+	width: 50px;
+	margin: 2px 0 2px 0;
+}
+
+.sidebar_item_icon {
+	margin: auto;
+	color: #FFFFFF;
+}
